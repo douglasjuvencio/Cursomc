@@ -24,6 +24,8 @@ public class Categoria implements Serializable {
 		return id;
 	}
 
+	
+	//teste de github
 	public void setId(Integer id) {
 		this.id = id;
 	}

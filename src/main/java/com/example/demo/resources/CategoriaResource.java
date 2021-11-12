@@ -27,5 +27,5 @@ public class CategoriaResource {
 		
 		return lista;
 	}
-
+    // teste do git hub
 }
