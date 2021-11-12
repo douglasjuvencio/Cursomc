@@ -3,10 +3,20 @@ package com.example.demo.domain;
 import java.io.Serializable;
 import java.util.Objects;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+
+@Entity //Essecomando cria a tabela
+
 public class Categoria implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY) // Cria a chave primaria da minha tabela
 	private Integer id;
 	private String nome;
 	
