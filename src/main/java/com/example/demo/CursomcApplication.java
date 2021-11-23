@@ -32,7 +32,7 @@ import com.example.demo.repositories.ProdutoRepository;
 
 @SpringBootApplication
 public class CursomcApplication implements CommandLineRunner{
-    
+    //teste do sistema de hoje
 	@Autowired
 	private CategoriaRepository  categoriaRepository;
 	
